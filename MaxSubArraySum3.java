@@ -12,7 +12,7 @@ public class MaxSubArraySum3 {
         System.out.println("Maxium subarray sum is: "+maxSum);
     }
     public static void main(String[] args) {
-        int nums[]={-2, -3, 4, -1, -2, 1, 5, -3};
+        int nums[]={-2, -3, -4, -1, -2, -1, -5, -3};
         kadanes(nums);
     }
 }
